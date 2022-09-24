@@ -4,7 +4,7 @@
 # - Disable firewall
 
 # Initial Installations (complete this task)
-- name: Install Apache, MariaDB on CentOS
+- name: Install LAMP dependencies
   yum:
     name:
       - epel-release
