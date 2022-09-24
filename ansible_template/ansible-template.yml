@@ -1,0 +1,10 @@
+---
+- hosts: [Your hostgroup name here]
+
+  vars:
+    company_site:
+      - {companyname: "Totsuki Academy", apache_dir: "totsuki_academy", filename: "totsuki_academy", companyid: 1}
+      - {companyname: "UA High School", apache_dir: "ua_high_school", filename: "ua_highschool", companyid: 2}
+      - {companyname: "Wayne Enterprises", apache_dir: "wayne_enterprises", filename: "wayne_enterprises", companyid: 3}
+
+  tasks:
