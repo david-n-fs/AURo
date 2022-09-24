@@ -1,5 +1,5 @@
 ---
-- hosts: [Your hostgroup name here]
+- hosts: Change-to-hostgroup-name
 
   vars:
     company_site:
